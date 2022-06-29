@@ -1,0 +1,10 @@
+body {
+  background-color: #e54c3a;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo img {
+  width: 5em;
+  height: auto;
+}
