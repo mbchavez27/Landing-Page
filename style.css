@@ -83,41 +83,54 @@ header ul {
   height: auto;
 }
 
+/* Second Part of Landing Page */
 .landingPart-second {
   background-color: #30475e;
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
+  padding: 1em 3em;
+  margin: 4em 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.landingContent-Title h1 {
+  font-size: 2em;
+}
+
+.landingContent-Cards {
+  display: flex;
+  gap: 3em;
+  padding: 1.5em 4em;
+}
+
+.landingContent-Card img {
+  width: 10em;
+  height: 10em;
+  object-fit: cover;
+  border: 2px solid #121212;
+  border-radius: 0.5em;
+}
+/*Third Part of Landing Page*/
+.landingPart-third {
+  display: flex;
   padding: 0.25em 3em;
   margin: 4em 0;
-  gap: 5em;
-  align-items: center;
 }
 
-.landingContent-second h1 {
-  font-size: 3em;
-  margin: auto;
-  padding: auto;
+.landingContent-Quote {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0.25em 1em;
 }
 
-.landingContent-secondp {
-  font-size: 1em;
-}
-
-.landingContent-second button {
-  font-family: "Raleway", sans-serif;
-  background-color: #3a84e5;
-  color: #ffffff;
-  border: none;
-  border-radius: 0.25em;
+.landingContent-Quote h1 {
   font-size: 1.25em;
-  font-weight: bold;
-  padding: 0.25em 0.5em;
 }
 
-.landingPicture-second img {
-  width: 35em;
-  height: auto;
+.landingContent-Quote p {
+  font-size: 1.25em;
 }
 
 /* Footer */
