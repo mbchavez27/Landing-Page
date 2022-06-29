@@ -10,6 +10,8 @@ body {
   padding: 0;
 }
 
+/* Header Part*/
+
 header {
   display: flex;
   justify-content: space-between;
@@ -18,7 +20,7 @@ header {
 .logo {
   display: flex;
   gap: 0.8em;
-  padding: 0.5em 1em;
+  padding: 0.25em 3em;
 }
 
 .logo img {
@@ -38,10 +40,14 @@ header ul {
   align-items: center;
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 0.25em 3em;
+  gap: 2em;
+  font-size: 1.15em;
 }
 
 .landingPicture img {
   width: 10em;
   height: auto;
 }
+
+/*Landing Part*/
