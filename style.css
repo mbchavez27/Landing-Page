@@ -2,12 +2,13 @@
 
 body {
   font-family: "Raleway", sans-serif;
-  color: #ffffff;
-  background-color: #e54c3a;
+  color: #f5f5f5;
+  background-color: #f05454;
   display: flex;
   flex-direction: column;
   margin: 0;
   padding: 0;
+  min-height: 100vh;
 }
 
 /* Header Part*/
@@ -19,7 +20,7 @@ header {
 
 .logo {
   display: flex;
-  gap: 0.8em;
+  gap: 1em;
   padding: 0.25em 3em;
 }
 
@@ -33,6 +34,7 @@ header {
   align-self: center;
   font-weight: bold;
   font-size: 1.8em;
+  letter-spacing: 0.25em;
 }
 
 header ul {
@@ -44,10 +46,94 @@ header ul {
   gap: 2em;
   font-size: 1.15em;
 }
+/*Landing Part*/
+.landingPart {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 0.25em 3em;
+  margin: 4em 0;
+  gap: 5em;
+  align-items: center;
+}
+
+.landingContent h1 {
+  font-size: 3em;
+  margin: auto;
+  padding: auto;
+}
+
+.landingContent p {
+  font-size: 1em;
+}
+
+.landingContent button {
+  font-family: "Raleway", sans-serif;
+  background-color: #c4b4a7;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.25em;
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 0.25em 0.5em;
+}
 
 .landingPicture img {
-  width: 10em;
+  width: 35em;
   height: auto;
 }
 
-/*Landing Part*/
+.landingPart-second {
+  background-color: #af8988;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 0.25em 3em;
+  margin: 4em 0;
+  gap: 5em;
+  align-items: center;
+}
+
+.landingContent-second h1 {
+  font-size: 3em;
+  margin: auto;
+  padding: auto;
+}
+
+.landingContent-secondp {
+  font-size: 1em;
+}
+
+.landingContent-second button {
+  font-family: "Raleway", sans-serif;
+  background-color: #3a84e5;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.25em;
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 0.25em 0.5em;
+}
+
+.landingPicture-second img {
+  width: 35em;
+  height: auto;
+}
+
+/* Footer */
+footer {
+  background-color: #121212;
+  display: flex;
+  margin-top: auto;
+  min-height: 2em;
+  justify-content: center;
+  align-items: center;
+  padding: 1.25em 0;
+  font-size: 1.15em;
+}
+
+footer a {
+  text-decoration: none;
+  color: #f5f5f5;
+  letter-spacing: 0.15em;
+}
